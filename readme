@@ -1,0 +1,22 @@
+The submitted project is an exam for MASA program 
+By LEONID MEZHIBOVSKII
+
+To run: 
+    1) Version without classes (without task #9);
+        tsc main.ts
+        node main.js
+
+    2) Version with classes (task 9);
+        Comment line 7 in main.ts
+        Uncomment line 8 in main.ts
+        tsc main.ts
+        node main.js        
+    
+
+For some reason I get an error with .find() function, even though I changed the tsconfig.json file. All the functions (even the ones that use .find() still work).
+
+Both ways (with and without classes) will do the same thing - initialize random school, find the youngest student in all of the classes and output them, transfer one student from one class to another (will throw an error, if student is not found)
+Basically, the repository contains two different solutions.
+
+For question #2 I wrote a response in the comments at the same line, but I copied it here as well:
+    THIS CONSTANT CAN'T BE USED BECAUSE IT IS NOT EXPORTED, SO IT WILL BE INVISIBLE IN OTHER SCRIPTS. IT IS ALSO COMMENTED OUT.
